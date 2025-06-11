@@ -1,0 +1,76 @@
+disabled="false"
+
+Done 
+--------
+1. src\app\pages\school\marking-periods\edit-marking-period\edit-marking-period.component.html- Add/Edit marking period
+2. src\app\pages\school\calendar\add-calendar\add-calendar.component.html- Add calender
+3. src\app\pages\school\calendar\add-event\add-event.component.html- add/edit event/holiday
+4. src\app\pages\school\notices\edit-notice\edit-notice.component.html- add/edit notice
+5. src\app\pages\student\add-student\student-generalinfo\student-generalinfo.component.html- dob field
+6. src\app\pages\student\add-student\student-enrollmentinfo\student-enrollmentinfo.component.html- student enrollment start/end date
+7.src\app\pages\admissions\application-forms\add-application-form\admission-form\admission-form.component.html  edit staff(Staff Details=>General Info)
+8.src\app\pages\staff\add-staff\staff-schoolinfo\staff-schoolinfo.component.html edit school edit school (Staff Details=>School Info)
+9.src\app\pages\staff\add-staff\staff-certificationinfo\add-certificate\add-certificate.component.html add certificate (staff details =>Add New Certification)
+10.opensis-ui\src\app\pages\courses\course-manager\edit-course-section\edit-course-section.component.ts start date /end date
+11. opensis-ui\src\app\common\search-student\search-student.component.html - left side filters
+12.opensis-ui\src\app\pages\grades\administration\search-student\search-student.component.html - left side filters
+13.src\app\pages\scheduling\schedule-student\schedule-student.component.html
+14 src\app\pages\scheduling\schedule-student\schedule-student.component.html - schedule  students
+15.src\app\pages\grades\certificates\course-section-details\course-section-details\course-section-details.component.html - grades=>Certificates
+16.src\app\pages\attendance\administration\administration.component.html  Attendance=>Administration (attendance date)
+17.src\app\pages\attendance\recalculate-daily-attendance\recalculate-daily-attendance.component.html  Attendance=>Recalculate Daily Attendance
+18.src\app\pages\attendance\missing-attendance\missing-attendance.component.html Attendance=>Missing Attendance
+19.opensis-ui\src\app\pages\behaviour\referrals\add-referral\add-referral.component.html (date of incident)
+20.opensis-ui\src\app\common\behavior-advance-search\behavior-advance-search.component.html
+21.opensis-ui\src\app\pages\reports\billing-and-fees-report\overdue-balance-report\overdue-balance-report.component.html (from date & to date)
+22.opensis-ui\src\app\pages\billing-and-fees\transactions\assign-fee-and-request-money\student-ledger\add-fund\add-fund.component.html(deposit Date)
+23.opensis-ui\src\app\pages\billing-and-fees\transactions\assign-fee-and-request-money\assign-fee\assign-fee.component.html (due Date)
+24.opensis-ui\src\app\pages\billing-and-fees\transactions\assign-fee-and-request-money\request-money\request-money.component.html (due Date)
+25.opensis-ui\src\app\pages\attendance\absence-summary\absence-summary.component.html (date filter)
+26.opensis-ui\src\app\pages\reports\attendance\absence-summary\absence-summary.component.html (date filter)
+27.opensis-ui\src\app\pages\reports\attendance\absence-summary\absence-summary-details\absence-summary-details.component.html (date filter)
+28.opensis-ui\src\app\pages\reports\attendance\attendance-report\attendance-report.component.html (date filter)
+30.opensis-ui\src\app\pages\reports\attendance\average-attendance-by-day\average-attendance-by-day.component.html (date filter)
+31.opensis-ui\src\app\pages\reports\attendance\average-daily-attendance\average-daily-attendance.component.html (date filter)
+32.opensis-ui\src\app\pages\reports\attendance\monthly-attendance-register\monthly-attendance-register.component.html (date filter)
+33.opensis-ui\src\app\pages\reports\behavior-report\administrative-decision\administrative-decision.component.html (date filter)
+34.opensis-ui\src\app\pages\reports\behavior-report\possible-motivation\possible-motivation.component.html (date filter)
+35.opensis-ui\src\app\pages\reports\behavior-report\problem-behavior-major\problem-behavior-major.component.html (date filter)
+36.opensis-ui\src\app\pages\reports\behavior-report\problem-behavior-minor\problem-behavior-minor.component.html (date filter)
+37.opensis-ui\src\app\pages\reports\behavior-report\referral-location\referral-location.component.html (date filter)
+38.opensis-ui\src\app\pages\reports\behavior-report\referral-month-day\referral-month-day.component.html (date filter)
+39.opensis-ui\src\app\pages\reports\behavior-report\referral-reporting-staff\referral-reporting-staff.component.html (date filter)
+40.opensis-ui\src\app\pages\reports\behavior-report\referral-student\referral-student.component.html (date filter)
+41.opensis-ui\src\app\pages\reports\behavior-report\referral-time-day\referral-time-day.component.html (date filter)
+42.opensis-ui\src\app\pages\reports\behavior-report\referral-witness\referral-witness.component.html (date filter)
+43.opensis-ui\src\app\pages\reports\billing-and-fees-report\account-statement\account-statement.component.html (date filter)
+44.opensis-ui\src\app\pages\reports\billing-and-fees-report\daily-transactions\daily-transactions.component.html (date filter)
+45.opensis-ui\src\app\pages\reports\billing-and-fees-report\overdue-balance-report\overdue-balance-report.component.html (date filter)
+46.opensis-ui\src\app\pages\reports\billing-and-fees-report\payment-history\payment-history.component.html (date filter)
+47.opensis-ui\src\app\pages\reports\billing-and-fees-report\payment-report-by-fee-type\payment-report-by-fee-type.component.html (date filter)
+48.opensis-ui\src\app\pages\reports\schedule\add-drop-report\add-drop-report.component.html (date filter)
+49.opensis-ui\src\app\pages\reports\schedule\print-schedules\print-schedules.component.html (date filter)
+50.opensis-ui\src\app\pages\reports\student-report\add-drop-report\add-drop-report.component.html (date filter)
+51.opensis-ui\src\app\pages\reports\student-report\enrollment-report\enrollment-report.component.html (date filter)
+52.opensis-ui\src\app\pages\tools\access-log\access-log.component.html (date filter)
+53.opensis-ui\src\app\common\custom-field-without-form\custom-field-without-form.component.html
+54.opensis-ui\src\app\pages\grades\historical-marking-periods\add-historical-marking-periods\add-historical-marking-periods.component.html
+55.opensis-ui\src\app\pages\staff\teacher-function\missing-attendance\missing-attendance.component.html
+56.opensis-ui\src\app\pages\student\add-student\student-course-schedule\student-course-schedule.component.html
+57.opensis-ui\src\app\pages\student\group-assign-student-info\group-assign-student-info.component.html
+58.opensis-ui\src\app\pages\student\student-re-enroll\student-re-enroll.component.html
+59.opensis-ui\src\app\pages\tools\audit-trail\audit-trail.component.html
+60.opensis-ui\src\app\pages\tools\rollover\rollover.component.html
+
+61.opensis-ui\src\app\common\custom-field\custom-field.component.html (custom date field)
+62.opensis-ui\src\app\common\search-student\custom-fields\custom-fields.component.html(custom date field)
+63.opensis-ui\src\app\pages\staff\staff-fields\edit-staff-fields\edit-staff-fields.component.html (default date)
+64.opensis-ui\src\app\pages\student\add-activity\add-activity.component.html (date)
+65.opensis-ui\src\app\pages\student\student-fields\edit-student-fields\edit-student-fields.component.html (default date)
+
+
+66.src\app\pages\student\add-student\student-course-schedule\add-assign-course\add-assign-course.component.html- Assign course section from student 360
+67.src\app\pages\staff\add-staff\staff-schoolinfo\staff-schoolinfo.component.html- Staff school info
+68.src\app\pages\student\add-student\student-enrollmentinfo\student-enrollmentinfo.component.html- Enrollment date student 360
+69.src\app\pages\school\add-school\general-info\general-info.component.html- School info (start/end date)
+70.src\app\pages\school\add-school\capture-date\capture-date.component.html- Add school date capture
